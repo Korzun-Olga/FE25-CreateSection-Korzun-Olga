@@ -1,0 +1,32 @@
+.awesome-row {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 -15px;
+}
+.awesome-card {
+  margin: 72px 15px 0;
+}
+.awesome-text {
+  text-align: center;
+}
+
+.awesome-card-img {
+  border: 1px solid #e72424;
+  border-radius: 50%;
+  height: 70px;
+  width: 70px;
+  margin: 0 auto 30px;
+  background-color: #fff;
+}
+.awesome-card-img img {
+  margin: auto;
+  display: block;
+  margin-top: 20px;
+}
+.awesome-card-title {
+  margin-bottom: 16px;
+  text-align: center;
+}
+.awesome-card-text p {
+  text-align: center;
+}
