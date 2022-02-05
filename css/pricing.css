@@ -3,7 +3,7 @@
   margin: 0 15px;
 }
 
-.pricing-list-item-name {
+.pricing-list_item--name {
   font-family: Open Sans;
   font-size: 20px;
   font-weight: 700px;
@@ -13,7 +13,7 @@
   line-height: 40px;
 }
 
-.pricing-list-item-cost {
+.pricing-list_item--cost {
   font-family: Raleway;
   font-size: 35px;
   font-weight: 700px;
@@ -24,7 +24,7 @@
   outline: 1px solid #ffffff;
 }
 
-.pricing-list-item {
+.pricing-list_item {
   font-family: Open Sans;
   font-size: 14px;
   font-weight: 600;
@@ -32,7 +32,7 @@
   color: #86878b;
   line-height: 35px;
 }
-.pricing-list-item-text {
+.pricing-list_item--text {
   font-family: Open Sans;
   font-size: 14px;
   font-weight: 400px;
