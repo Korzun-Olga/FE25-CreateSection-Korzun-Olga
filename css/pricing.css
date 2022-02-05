@@ -1,0 +1,43 @@
+.pricing-card {
+  width: 340px;
+  margin: 0 15px;
+}
+
+.pricing-list-item-name {
+  font-family: Open Sans;
+  font-size: 20px;
+  font-weight: 700px;
+  text-align: center;
+  color: #ffffff;
+  background-color: #333333;
+  line-height: 40px;
+}
+
+.pricing-list-item-cost {
+  font-family: Raleway;
+  font-size: 35px;
+  font-weight: 700px;
+  text-align: center;
+  color: #ffffff;
+  background-color: #333333;
+  line-height: 80px;
+  outline: 1px solid #ffffff;
+}
+
+.pricing-list-item {
+  font-family: Open Sans;
+  font-size: 14px;
+  font-weight: 600;
+  text-align: center;
+  color: #86878b;
+  line-height: 35px;
+}
+.pricing-list-item-text {
+  font-family: Open Sans;
+  font-size: 14px;
+  font-weight: 400px;
+  text-align: center;
+  color: #ffffff;
+  background-color: #333333;
+  line-height: 40px;
+}
