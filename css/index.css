@@ -42,7 +42,7 @@ section {
   max-width: 650px;
   color: #86878b;
   margin: auto;
-  margin-bottom: 72px;
+  margin-bottom: 40px;
 }
 .subtitle p {
   text-align: center;
@@ -55,6 +55,7 @@ section {
   flex-flow: row wrap;
   margin: 0 -15px;
 }
+/* это флекс коробка, пишу ее один раз и она будет для двух секций применяться */
 p {
   font-family: Open Sans;
   font-size: 14px;
