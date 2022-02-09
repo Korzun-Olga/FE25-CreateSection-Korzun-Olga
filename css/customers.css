@@ -1,0 +1,69 @@
+.customers-row {
+  display: flex;
+  justify-content: space-around;
+  flex-flow: row wrap;
+  margin: 0 -15px;
+}
+.customers-card {
+  width: 300px;
+  margin: 0px 15px;
+}
+.customers-card-text {
+  background: #e2e2e2;
+  border-radius: 7px;
+  padding: 9px 22px 6px;
+}
+.customers-card-text p {
+  font-family: Open Sans;
+  font-size: 14px;
+  font-weight: 400;
+  color: #86878b;
+  text-align: center;
+}
+.customers-card-content::after {
+  content: "";
+  width: 0;
+  height: 0;
+  border-top: 20px solid #e2e2e2;
+  border-left: 20px solid transparent;
+  border-right: 20px solid transparent;
+  display: block;
+  margin-left: 40px;
+  margin-bottom: 7px;
+}
+.customer-card-info {
+  display: flex;
+  justify-content: space-evenly;
+  flex-flow: row wrap;
+}
+.customer-card-photo {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  overflow: hidden;
+}
+.customer-card-photo img {
+  width: 70px;
+}
+
+p.name {
+  font-family: Open Sans;
+  font-size: 20px;
+  font-weight: 700;
+  text-align: right;
+  margin-bottom: 12px;
+  color: #333333;
+}
+p.profession {
+  font-family: Open Sans;
+  font-size: 14px;
+  font-weight: 400;
+  text-align: right;
+  color: #86878b;
+}
+.customer-image {
+  width: 70px;
+  height: 70px;
+  border: 1px solid #333333;
+  border-radius: 50%;
+}

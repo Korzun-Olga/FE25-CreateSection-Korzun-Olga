@@ -1,6 +1,8 @@
 @import url("../css/cdn.css");
 @import url("../css/awesome.css");
 @import url("../css/pricing.css");
+@import url("../css/customers.css");
+@import url("../css/axure.css");
 * {
   margin: 0;
   padding: 0;
@@ -12,14 +14,16 @@
   max-width: 1170px;
   padding: 0 15px;
   margin: auto;
+  position: relative;
+  z-index: 5;
 }
 html {
   font-family: "Raleway", "Open Sans", sans-serif;
 }
 section {
   padding: 80px 0;
-  background-color: #f5f5f5;
 }
+
 .title {
   font-family: Raleway;
   font-size: 36px;
@@ -28,34 +32,29 @@ section {
   text-align: center;
   max-width: 650px;
   margin: auto;
+  margin-bottom: 32px;
   text-transform: uppercase;
 }
-.block {
+.title::after {
+  content: "";
   width: 64px;
   height: 1px;
   background-color: #e72424;
   margin: auto;
-  margin-top: 34px;
-  margin-bottom: 34px;
+  margin-top: 32px;
+  display: block;
 }
+
 .subtitle {
   max-width: 650px;
   color: #86878b;
   margin: auto;
-  margin-bottom: 40px;
+  margin-bottom: 70px;
 }
 .subtitle p {
   text-align: center;
 }
-.flex-box {
-  max-width: 1170px;
-  margin: auto;
-  display: flex;
-  justify-content: space-between;
-  flex-flow: row wrap;
-  margin: 0 -15px;
-}
-/* это флекс коробка, пишу ее один раз и она будет для двух секций применяться */
+
 p {
   font-family: Open Sans;
   font-size: 14px;

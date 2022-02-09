@@ -1,29 +1,46 @@
+.pricing {
+  background-color: #f5f5f5;
+}
+.pricing-row {
+  display: flex;
+  justify-content: space-between;
+  flex-flow: row wrap;
+  margin: 0 -15px;
+}
 .pricing-card {
   width: 340px;
-  margin: 30px 15px 0px;
+  margin: 0px 15px;
 }
-
 .pricing-list_item--name {
   font-family: Open Sans;
   font-size: 20px;
-  font-weight: 700px;
+  font-weight: 700;
   text-align: center;
   color: #ffffff;
   background-color: #333333;
   line-height: 40px;
+  margin-bottom: 3px;
 }
-
 .pricing-list_item--cost {
   font-family: Raleway;
   font-size: 35px;
-  font-weight: 700px;
+  font-weight: 700;
   text-align: center;
   color: #ffffff;
   background-color: #333333;
   line-height: 80px;
-  outline: 1px solid #ffffff;
+  margin-bottom: 3px;
 }
-
+.pricing-list_item--text {
+  font-family: Open Sans;
+  font-size: 14px;
+  font-weight: 400;
+  text-align: center;
+  color: #ffffff;
+  background-color: #333333;
+  line-height: 40px;
+  margin-bottom: 3px;
+}
 .pricing-list_item {
   font-family: Open Sans;
   font-size: 14px;
@@ -31,13 +48,9 @@
   text-align: center;
   color: #86878b;
   line-height: 35px;
+  background-color: #ffffff;
+  margin-bottom: 3px;
 }
-.pricing-list_item--text {
-  font-family: Open Sans;
-  font-size: 14px;
-  font-weight: 400px;
-  text-align: center;
-  color: #ffffff;
-  background-color: #333333;
-  line-height: 40px;
+.pricing-list_item:last-child {
+  margin-bottom: 0px;
 }
