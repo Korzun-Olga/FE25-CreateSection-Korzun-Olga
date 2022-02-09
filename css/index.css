@@ -14,14 +14,16 @@
   max-width: 1170px;
   padding: 0 15px;
   margin: auto;
-  position: relative;
-  z-index: 5;
 }
 html {
   font-family: "Raleway", "Open Sans", sans-serif;
 }
 section {
   padding: 80px 0;
+  top: 0px;
+  left: 0px;
+  position: relative;
+  z-index: 5;
 }
 
 .title {
