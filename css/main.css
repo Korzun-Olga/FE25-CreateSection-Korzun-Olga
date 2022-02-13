@@ -1,0 +1,92 @@
+.main {
+  background-image: url("../img/img/background-1\ 1.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+}
+.main::after {
+  content: "";
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.4);
+  display: block;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  z-index: 2;
+}
+.main-header {
+  font-family: Roboto;
+  font-size: 60px;
+  font-weight: 400;
+  margin-bottom: 32px;
+  color: #fff;
+  text-transform: uppercase;
+  display: block;
+}
+.main-header::after {
+  content: "it";
+  font-family: Roboto;
+  font-size: 60px;
+  font-weight: 400;
+  margin-bottom: 32px;
+  color: #eb5e4c;
+}
+.main-header-title {
+  font-family: Raleway;
+  font-size: 36px;
+  color: #fff;
+  font-weight: 400;
+  text-align: left;
+  display: block;
+  max-width: 544px;
+  margin-bottom: 32px;
+  text-transform: uppercase;
+}
+.main-header-title::after {
+  content: "";
+  width: 64px;
+  height: 1px;
+  background-color: #fff;
+  margin: left;
+  margin-top: 32px;
+  display: block;
+}
+.main-header-subtitle {
+  color: #fff;
+  max-width: 250px;
+  margin: left;
+  margin-bottom: 40px;
+}
+
+.main-header-button {
+  width: 135px;
+  height: 42px;
+  border: 1px solid #fff;
+  background-color: transparent;
+  padding: 11px 26px;
+  display: block;
+  cursor: pointer;
+}
+
+.main-header-button p {
+  color: #fff;
+  text-align: center;
+}
+.main-header-button:hover {
+  border: none;
+  box-shadow: inset 0 0 25px 10px rgba(0, 0, 0, 0.5);
+  background-color: #fff;
+}
+.main-header-button p:hover {
+  color: rgb(0, 0, 0);
+}
+
+/* .main-navigation {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: -15px 0px;
+} */

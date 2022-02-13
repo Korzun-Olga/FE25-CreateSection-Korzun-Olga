@@ -1,6 +1,11 @@
 .pricing {
   background-color: #f5f5f5;
 }
+.pricing-card:hover {
+  transform: translate(0px, -30px);
+  box-shadow: 0 15px 20px 0 rgba(0, 0, 0, 0.55);
+  transform: scale(1.2);
+}
 .pricing-row {
   display: flex;
   justify-content: space-between;

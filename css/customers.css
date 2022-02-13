@@ -40,10 +40,13 @@
   width: 70px;
   height: 70px;
   border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   overflow: hidden;
 }
 .customer-card-photo img {
-  width: 70px;
+  width: 100%;
 }
 
 p.name {
@@ -60,10 +63,4 @@ p.profession {
   font-weight: 400;
   text-align: right;
   color: #86878b;
-}
-.customer-image {
-  width: 70px;
-  height: 70px;
-  border: 1px solid #333333;
-  border-radius: 50%;
 }
