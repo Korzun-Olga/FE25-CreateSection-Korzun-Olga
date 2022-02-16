@@ -63,7 +63,7 @@
   color: #ffff;
   text-align: center;
 }
-.axure-button:hover  {
+.axure-button:hover {
   background-color: #ffff;
   border: transparent;
   box-shadow: inset 0 0 25px 10px rgba(0, 0, 0, 0.5);
@@ -110,3 +110,4 @@
   100% {
     transform: scaleX(1) scaleY(1);
   }
+}

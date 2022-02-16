@@ -16,6 +16,11 @@
   left: 0px;
   z-index: 2;
 }
+.main-flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
 .main-header {
   font-family: Roboto;
   font-size: 60px;
@@ -82,11 +87,3 @@
 .main-header-button p:hover {
   color: rgb(0, 0, 0);
 }
-
-/* .main-navigation {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  background-color: rgba(0, 0, 0, 0.5);
-  padding: -15px 0px;
-} */
