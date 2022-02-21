@@ -1,0 +1,31 @@
+.section.contact {
+  background: #e5e5e5;
+}
+
+.contact-row {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.contact_left,
+.contact_right {
+  width: 480px;
+}
+
+textarea {
+  border: none;
+  border-bottom: 1px solid #bdbdbd;
+  padding: 10px;
+  resize: none;
+  width: 480px;
+  height: 170px;
+}
+
+button.contact-button {
+  width: 166px;
+  height: 42px;
+  display: block;
+  max-width: 300px;
+  margin: auto;
+}

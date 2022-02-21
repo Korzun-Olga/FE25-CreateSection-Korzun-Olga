@@ -20,6 +20,7 @@
   display: flex;
   justify-content: space-between;
   align-items: flex-start;
+  flex-wrap: wrap;
 }
 .main-header {
   font-family: Roboto;
@@ -61,7 +62,7 @@
 .main-header-subtitle {
   color: #fff;
   max-width: 250px;
-  margin: left;
+  text-align: left;
   margin-bottom: 40px;
 }
 
@@ -86,4 +87,57 @@
 }
 .main-header-button p:hover {
   color: rgb(0, 0, 0);
+}
+
+.form {
+  width: 370px;
+  border-radius: 5px;
+  overflow: hidden;
+}
+.form-content {
+  background: #fff;
+  width: 100%;
+  padding: 11px 50px;
+}
+
+.form-title {
+  font-family: Open Sans;
+  font-weight: 700;
+  font-size: 20px;
+  text-align: center;
+  text-transform: capitalize;
+  margin-bottom: 54px;
+}
+.form-title span {
+  text-transform: uppercase;
+  color: #ec7979;
+}
+
+label {
+  font-family: Open Sans;
+  font-weight: 400;
+  font-size: 14px;
+  color: #bdbdbd;
+}
+input {
+  border: none;
+  border-bottom: 1px solid #bdbdbd;
+  width: 100%;
+  padding: 5px;
+  margin-bottom: 25px;
+}
+
+button {
+  display: block;
+  width: 100%;
+  background: #ec7979;
+  color: #fff;
+  padding: 12px 0px;
+  text-align: center;
+  border: none;
+  font-family: Open Sans;
+  font-size: 15px;
+  font-weight: 600;
+  text-transform: capitalize;
+  cursor: pointer;
 }

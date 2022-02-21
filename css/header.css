@@ -41,5 +41,4 @@ section.header {
 .header-navigation-item a:hover {
   color: #fff;
   border-bottom: 2px solid #fff;
-  /* transform: translate(0px, 1px); */
 }
