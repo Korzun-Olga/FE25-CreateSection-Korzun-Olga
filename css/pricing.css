@@ -9,16 +9,16 @@
 .pricing-row {
   display: flex;
   justify-content: space-between;
-  flex-flow: row wrap;
+  flex-flow: row nowrap;
   margin: 0 -15px;
 }
 .pricing-card {
-  width: 340px;
+  width: 30%;
   margin: 0px 15px;
 }
 .pricing-list_item--name {
   font-family: Open Sans;
-  font-size: 20px;
+  font-size: 1.25rem;
   font-weight: 700;
   text-align: center;
   color: #ffffff;
@@ -28,7 +28,7 @@
 }
 .pricing-list_item--cost {
   font-family: Raleway;
-  font-size: 35px;
+  font-size: 2.187rem;
   font-weight: 700;
   text-align: center;
   color: #ffffff;
@@ -38,7 +38,7 @@
 }
 .pricing-list_item--text {
   font-family: Open Sans;
-  font-size: 14px;
+  font-size: 0.875rem;
   font-weight: 400;
   text-align: center;
   color: #ffffff;
@@ -48,7 +48,7 @@
 }
 .pricing-list_item {
   font-family: Open Sans;
-  font-size: 14px;
+  font-size: 0.875rem;
   font-weight: 600;
   text-align: center;
   color: #86878b;

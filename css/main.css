@@ -4,7 +4,11 @@
   background-position: center;
   background-size: cover;
   position: relative;
+  height: 100vh;
+  display: flex;
+  align-items: center;
 }
+
 .main::after {
   content: "";
   width: 100%;
@@ -16,32 +20,36 @@
   left: 0px;
   z-index: 2;
 }
-.main-flex {
+
+.main-row {
   display: flex;
   justify-content: space-between;
   align-items: flex-start;
-  flex-wrap: wrap;
+  flex-direction: row;
 }
-.main-header {
+.main-content {
+  max-width: 420px;
+}
+.main-logo {
   font-family: Roboto;
-  font-size: 60px;
+  font-size: 3.75rem;
   font-weight: 400;
   margin-bottom: 32px;
   color: #fff;
   text-transform: uppercase;
   display: block;
 }
-.main-header::after {
+.main-logo::after {
   content: "it";
   font-family: Roboto;
-  font-size: 60px;
+  font-size: 3.75rem;
   font-weight: 400;
   margin-bottom: 32px;
   color: #eb5e4c;
 }
-.main-header-title {
+.main-title {
   font-family: Raleway;
-  font-size: 36px;
+  font-size: 2.25rem;
   color: #fff;
   font-weight: 400;
   text-align: left;
@@ -50,7 +58,7 @@
   margin-bottom: 32px;
   text-transform: uppercase;
 }
-.main-header-title::after {
+.main-title::after {
   content: "";
   width: 64px;
   height: 1px;
@@ -59,14 +67,14 @@
   margin-top: 32px;
   display: block;
 }
-.main-header-subtitle {
+.main-subtitle {
   color: #fff;
   max-width: 250px;
   text-align: left;
   margin-bottom: 40px;
 }
 
-.main-header-button {
+.main-button {
   width: 135px;
   height: 42px;
   border: 1px solid #fff;
@@ -76,34 +84,34 @@
   cursor: pointer;
 }
 
-.main-header-button p {
+.main-button p {
   color: #fff;
   text-align: center;
 }
-.main-header-button:hover {
+.main-button:hover {
   border: none;
   box-shadow: inset 0 0 25px 10px rgba(0, 0, 0, 0.5);
   background-color: #fff;
 }
-.main-header-button p:hover {
+.main-button p:hover {
   color: rgb(0, 0, 0);
 }
 
 .form {
-  width: 370px;
+  width: 40%;
   border-radius: 5px;
   overflow: hidden;
 }
 .form-content {
   background: #fff;
   width: 100%;
-  padding: 11px 50px;
+  padding: 11px 50px 50px;
 }
 
 .form-title {
   font-family: Open Sans;
   font-weight: 700;
-  font-size: 20px;
+  font-size: 1.25rem;
   text-align: center;
   text-transform: capitalize;
   margin-bottom: 54px;
@@ -113,10 +121,16 @@
   color: #ec7979;
 }
 
+.form-item {
+  margin-bottom: 25px;
+}
+.form-item:last-of-type {
+  margin-bottom: 0px;
+}
 label {
   font-family: Open Sans;
   font-weight: 400;
-  font-size: 14px;
+  font-size: 0.875rem;
   color: #bdbdbd;
 }
 input {
@@ -124,7 +138,6 @@ input {
   border-bottom: 1px solid #bdbdbd;
   width: 100%;
   padding: 5px;
-  margin-bottom: 25px;
 }
 
 button {
@@ -136,7 +149,7 @@ button {
   text-align: center;
   border: none;
   font-family: Open Sans;
-  font-size: 15px;
+  font-size: 0.875rem;
   font-weight: 600;
   text-transform: capitalize;
   cursor: pointer;

@@ -1,20 +1,23 @@
-.customers-row-up,
-.cutomers-row-bottom {
+.customers-row {
   display: flex;
   justify-content: space-around;
-  flex-flow: row wrap;
+  flex-flow: row nowrap;
   margin: 0 -15px;
+  align-items: flex-start;
 }
-.customers-card-up {
-  width: 300px;
+.customers-card {
+  width: 30%;
   margin: 0px 15px;
-  display: flex;
-  justify-content: center;
-  align-items: stretch;
-  margin-bottom: 30px;
-  position: relative;
 }
-.customers-card-up:after {
+.customers-content {
+  margin-bottom: 35px;
+}
+.customers-card-text {
+  position: relative;
+  height: 100%;
+}
+
+.customers-card-text:after {
   content: "";
   width: 0;
   height: 0;
@@ -22,13 +25,10 @@
   border-left: 20px solid transparent;
   border-right: 20px solid transparent;
   position: absolute;
-  bottom: -20px;
-  left: 40px;
+  top: 100%;
+  left: 20px;
 }
-.customers-card-bottom {
-  width: 300px;
-  margin: 0px 15px;
-}
+
 .customers-card-text {
   background: #e2e2e2;
   border-radius: 7px;
@@ -36,7 +36,7 @@
 }
 .customers-card-text p {
   font-family: Open Sans;
-  font-size: 14px;
+  font-size: 0.875rem;
   font-weight: 400;
   color: #86878b;
   text-align: center;
@@ -62,7 +62,7 @@
 
 p.name {
   font-family: Open Sans;
-  font-size: 20px;
+  font-size: 1.25rem;
   font-weight: 700;
   text-align: right;
   margin-bottom: 12px;
@@ -70,7 +70,7 @@ p.name {
 }
 p.profession {
   font-family: Open Sans;
-  font-size: 14px;
+  font-size: 0.875rem;
   font-weight: 400;
   text-align: right;
   color: #86878b;

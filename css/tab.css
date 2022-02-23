@@ -8,7 +8,7 @@
   display: flex;
   align-items: flex-start;
   justify-content: space-around;
-  max-width: 770px;
+  width: 60%;
 }
 
 .tab-links {
@@ -25,7 +25,7 @@
   margin-bottom: 10px;
   font-family: Open Sans;
   font-weight: 700;
-  font-size: 15px;
+  font-size: 1rem;
   cursor: pointer;
 }
 .tab-button button:nth-child(3) {
@@ -44,19 +44,19 @@
 .tab-content-title {
   font-family: Open Sans;
   font-weight: 700;
-  font-size: 20px;
+  font-size: 1.25rem;
   text-align: left;
   text-transform: uppercase;
   margin-bottom: 50px;
 }
 .tab-content-item {
-  margin-bottom: 90px;
+  margin-bottom: 80px;
 }
 .tab-content-item p {
   text-align: left;
   font-family: Open Sans;
   color: #86878b;
-  font-size: 14px;
+  font-size: 0.875rem;
   font-weight: 400;
   text-transform: uppercase;
   margin-bottom: 15px;
@@ -74,7 +74,7 @@
 .tab-content-button p {
   color: #fff;
   font-family: Open Sans;
-  font-size: 14px;
+  font-size: 0.875rem;
   font-weight: 400;
 }
 #Tab-2 {
@@ -84,13 +84,13 @@
   display: none;
 }
 
-.tab-right-img {
-  width: 320px;
+.tab-right {
+  width: 30%;
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
-.tab-right-img img {
+.tab-right img {
   width: 100%;
 }

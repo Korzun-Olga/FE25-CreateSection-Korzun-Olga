@@ -14,7 +14,7 @@ section.social {
 }
 .social-title {
   text-align: left;
-  font-size: 20px;
+  font-size: 1.25rem;
   color: #333333;
   font-family: Open Sans;
   text-transform: capitalize;
@@ -26,7 +26,7 @@ section.social {
   text-align: left;
   font-family: Open Sans;
   color: #86878b;
-  font-size: 14px;
+  font-size: 0.875rem;
   font-weight: 400;
 }
 .social-list {
@@ -37,7 +37,7 @@ section.social {
 }
 .social-list-item a {
   color: #86878b;
-  font-size: 40px;
+  font-size: 2.5rem;
   margin-left: 40px;
   font-family: font-awesome;
   font-weight: 600;
